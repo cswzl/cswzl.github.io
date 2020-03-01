@@ -1,0 +1,23 @@
+:root {
+  --primary-color-h: 204;
+  --primary-color-s: 100%;
+  --primary-color-l: 50%;
+  --primary-color: hsl(
+    var(--primary-color-h),
+    var(--primary-color-s),
+    var(--primary-color-l)
+  );
+  --primary-font-color: #fff;
+  --primary-hover-color: hsl(
+    var(--primary-color-h),
+    var(--primary-color-s),
+    90%
+  );
+}
+
+* {
+  font-family: Roboto;
+}
+.displayNone {
+  display: none !important;
+}

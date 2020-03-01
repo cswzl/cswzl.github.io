@@ -1,0 +1,22 @@
+[
+  {
+    "group": "Accrual",
+    "shortName": "acc-takedown",
+    "description": "Accrual Takedown"
+  },
+  {
+    "group": "Accrual",
+    "shortName": "acc-payment",
+    "description": "Accrual Payment"
+  },
+  {
+    "group": "Amortization",
+    "shortName": "amz-takedown",
+    "description": "Amortization Takedown"
+  },
+  {
+    "group": "Amortization",
+    "shortName": "amz-payment",
+    "description": "Amortization Payment"
+  }
+]

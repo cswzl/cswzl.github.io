@@ -1,0 +1,21 @@
+<details>
+  <summary>Base Information</summary>
+  <div>
+    <input
+      type="text"
+      [(ngModel)]="model.C_AMT.value"
+      [ngModelOptions]="{standalone: true}"
+      [readonly]="isReadonly(model.C_AMT.readonly)"
+    />
+  </div>
+  <div>
+    <select
+      [(ngModel)]="model.C_CCY.value"
+      [ngModelOptions]="{standalone: true}"
+      [disabled]="isReadonly(model.C_CCY.readonly)"
+    >
+      <option>USD</option>
+      <option>RMB</option>
+    </select>
+  </div>
+</details>

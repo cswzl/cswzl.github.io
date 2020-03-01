@@ -1,0 +1,70 @@
+cs-record-list-item {
+  width: 100%;
+  * {
+    user-select: none;
+  }
+
+  > .cs-record-list-item {
+    &:first-child {
+      margin-top: 0;
+    }
+    width: 100%;
+    margin: 4px 0;
+    cursor: pointer;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    > .detail {
+      display: flex;
+      padding: 4px 8px;
+      > .columns {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        > .column {
+          font-size: 12px;
+          margin: 2px 0;
+          word-wrap: break-word;
+          word-break: break-all;
+          > .description {
+            font-weight: 600;
+            &:after {
+              content: ':  ';
+            }
+          }
+        }
+      }
+      > .buttons {
+        box-sizing: border-box;
+        width: 24px;
+        display: flex;
+        flex-direction: column;
+        > .btShow {
+          box-sizing: border-box;
+          width: 24px;
+          height: 24px;
+          display: flex;
+          justify-content: center;
+          > .extend-icon {
+            width: 9px;
+            width: 9px;
+          }
+        }
+        > .extend {
+          transform: rotate(180deg);
+        }
+      }
+    }
+    > .buttons {
+      border-top: 1px solid #e7e7e7;
+      display: flex;
+      > div {
+        flex: 1;
+        text-align: center;
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
